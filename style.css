@@ -77,6 +77,10 @@ body{
     .big-text p{
         font-size: 3rem;
     }
+    
+    .bg-container{
+        background-image: url('./img/BD.jpg');
+    }
 }
 
 
