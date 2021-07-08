@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-container{
+    background-image: url('img/BD.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-title h1{
+    margin: 200px 0 0;
+    font-size: 2.5rem;
+}
+
+.container-title p{
+    text-align: center;
+    margin: 0 0 20px
+}
+
+.timebox{
+    display: flex;
+}
+
+.big-text p{
+    font-size: 4rem;
+    margin: 0 2rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.big-text span {
+    font-size: 1.1rem;
+}
+
+.big-text{
+    text-align: center;
+}
+
+
+
+/* Respossive CSS */
+
+@media screen and (max-width: 500px) {
+    .container .container-title h1{
+        font-size: 1.5rem;
+    }
+
+    .timebox{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .timebox .big-text{
+        margin: 0 0 15px;
+    }
+
+    .big-text p{
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*FINISH THE CSS CODE HERE*/
+/* Copyright: Rakib Hossen*/
+/**Fiverr ID: https://www.fiverr.com/rakib_11/
