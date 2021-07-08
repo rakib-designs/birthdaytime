@@ -61,7 +61,13 @@ body{
 
 @media screen and (max-width: 500px) {
     .container .container-title h1{
+        margin: 220px 0 0;
         font-size: 1.5rem;
+        color: #ffff;
+    }
+    
+    .container-title p{
+        color: #ffff;
     }
 
     .timebox{
@@ -76,6 +82,11 @@ body{
 
     .big-text p{
         font-size: 3rem;
+        color: #ffff;
+    }
+    
+    .big-text span {
+        color: #ffff;
     }
     
     .bg-container{
